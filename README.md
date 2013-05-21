@@ -1,9 +1,9 @@
-#adzan#
+#Adzan!#
 
 
 Adzan! Islamic prayer time schedule system [main apps]
 
-**CAUITIONS**
+**CAUTIONS**
 >
       "This program does not presume to provide theologically-correct results
       and it should be noted that the rules are extremely complex, especially
