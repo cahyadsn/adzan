@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body {
+  font-family: arial, helvetica, sans serif;
+  font-size: 11px;
+  background: #E9ECEF;
+}
+
+p {
+  font-family: arial, helvetica, sans serif;
+  font-size: 11px;
+}
+
+h2 {
+  font-family: arial, helvetica, sans serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: arial, helvetica, sans serif;
+  font-size: 12px;
+  font-weight: bold;
+  color:#000099;
+  border-bottom:1px solid #000099;
+}
+
+h4 {
+  font-family: arial, helvetica, sans serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+li {
+  font-family: arial, helvetica, sans serif;
+  font-size: 11px;
+}
+
+-->
+</style>
+</head>
+<body>
+<h2>Table of Contents</h2>
+<ul>
+  <li><a href="documentation.html#SEC1" name="TOC1" id="TOC1">Introduction</a></li>
+  <li><a href="documentation.html#SEC2" name="TOC2" id="TOC2">Features</a></li>
+	<li><a href="documentation.html#SEC3" name="TOC3" id="TOC3">Requirements</a></li>
+	<li><a href="documentation.html#SEC4" name="TOC4" id="TOC4">Installation</a></li>
+	<li><a href="documentation.html#SEC5" name="TOC5" id="TOC5">Registration</a></li>
+	<li><a href="documentation.html#SEC6" name="TOC6" id="TOC6">Configuration</a></li>
+</ul>
+<p></p>
+<hr />
+<h2><a href="documentation.html#TOC1" name="SEC1" id="SEC1">INTRODUCTION</a></h2>
+<p>ADZAN is a islamic prayer time schedule written in PHP. The output produced by ADZAN is very small, HTML 4.01 compliant and also looks fine with any modern browser which supports HTML4+ and JavaScript. ADZAN requires PHP version 4.2 or higher</p>
+
+<h2><a href="documentation.html#TOC2" name="SEC2" id="SEC2">FEATURES</a></h2>
+<h3>Adzan Features</h3>
+<table cellspacing="4" cellpadding="2" width="100%">
+<tr>
+<td bgColor="#cccccc" width="50%"><b>Adzan</b></td>
+<td bgColor="#cccccc" width="50%"><b>Parameters</b></td>
+</tr>
+<tr valign="top">
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+</tr>
+</table>
+<h3>Administrator Features</h3>
+<table cellspacing="4" cellpadding="2" width="100%">
+<tr>
+<td bgColor="#cccccc" width="50%"><b>User Management</b></td>
+<td bgColor="#cccccc" width="50%"><b>City Management</b></td>
+</tr>
+<tr valign="top">
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td bgColor="#cccccc" width="50%"><b>Preference</b></td>
+<td bgColor="#cccccc" width="50%"><b>Documentation</b></td>
+</tr>
+<tr valign="top">
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+<td>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h2><a href="documentation.html#TOC3" name="SEC3" id="SEC3">REQUIREMENTS</a></h2>
+<p><table width="100%">
+<tr>
+  <td><b>Script Type</b></td><td>PHP Server Side Scripting</td>
+</tr>
+<tr>
+  <td><b>Operating System</b></td><td>Linux or Windows Server</td>
+</tr>
+<tr>
+  <td><b>Web Server</b></td><td>Apache or IIS</td>
+</tr>
+<tr>
+  <td><b>PHP Version</b></td><td>PHP 4.2 or above</td>
+</tr>
+<tr valign="top">
+  <td><b>PHP Configuration</b></td><td>ZLib library *<br />GD library **</td>
+</tr>
+<tr>
+  <td><b>Web Browser</b></td><td>Internet Explorer 5 or above, Javascript enable</td>
+</tr>
+</table></p>
+<p>)* ZLib library is required to decrypt our encrypted codes. We recommend PHP 4.2 and above as the lower versions will results in buffer handling error.</p>
+<p>)** GD library is required for created Qibla direction visualization image.</p>
+<h2><a href="documentation.html#TOC4" name="SEC4" id="SEC4">INSTALLATION</a></h2>
+<p>Before installing, we recommend you to take a look at the System <a href="documentation.html#SEC3">Requirements</a>.</p>
+<p><b>Step 1: Unzip File</b><br />
+Unzip your downloaded zip file onto your local computer, making sure to preserve the directory structure contained in the zip. If you do not have a zip utility, you can download the Winzip program at <a href="http://www.winzip.com/">http://www.winzip.com/</a> .</p>
+<p><b>Step 2: Uploading Files</b><br />
+Using the FTP program, login to your web server and upload the 'adzan' folder from your local computer into the web root. This is usually public_html or htdocs folder, the same directory in which your homepage resides. However, the web root folder could be different on your server.</p>
+<p><b>Step 3: Set File Permissions</b><br />
+Adzan requires modification of files in directories. If you are using Unix-based web server, you will need to set the file permissions - read, write and execute on these files and directories. Most FTP programs allow you to change file permissions. As for Windows server users, the appropiate file permissions might have been set.</p>
+<p>Permissions are specified by 3 digit number, such as 644 or 755. Please CHMOD* these file and directory accordingly:
+<ul>
+  <li>/adzan/config.php : 777 (Owner: Read, Write, Execute; Group: Read, Write, Execute; Others: Read, Write, Execute)</li>
+  <li>/adzan/data/ : 777 (Owner: Read, Write, Execute; Group: Read, Write, Execute; Others: Read, Write, Execute)</li>
+  <li>/adzan/data/city.txt : 777 (Owner: Read, Write, Execute; Group: Read, Write, Execute; Others: Read, Write, Execute)</li>
+</ul></p>
+<p><i>Unix File Permissions</i><br />
+)* CHMOD is a command used for changing file permissions.</p>
+<p>To set file permissions with your FTP program, right click on a file or directory, and look for command such as 'File Attributes', 'Change File Permissions', or 'chmod'. From here you will be able to set 'read, write, execute' permissions for 'owner, group, others' via checkboxes. Anyway, the easiest way to set the permissions would be insert the appropiate number.</p>
+<p><i>Windows File Permissions</i><br />
+Normally, PHP scripts is able to run on Windows environment without the need to set any file permissions. However, in some cases, your server may not be setup to allow the PHP scripts to have 'write access' to it's file. As a result, the program will prompts you warning message stating that it is not able to write into it's data file.</p>
+<p><b>Step 4: Run Installation Wizard</b><br />
+To run the Installation Wizard, open the /adzan with your web browser, for example: http://your-domain-name/adzan.</p>
+<p>The Installation Wizard will appears, which will guides you through the final installation process. Simply follow 3 simple steps as described below:
+<ul>
+<li><b><i>Pre-installation Check</i></b><br /></li>
+<li><b><i>Setting Parameters</i></b><br /></li>
+<li><b><i>Directory Paths and Administrator Password</i></b><br /></li>
+</ul>
+</p>
+
+
+<h2><a href="documentation.html#TOC5" name="SEC5" id="SEC5">REGISTRATION</a></h2>
+<p><i>under construction</i></p>
+
+<h2><a href="documentation.html#TOC6" name="SEC6" id="SEC6">CONFIGURATION</a></h2>
+<p><i>under construction</i></p>
+
+
+</body>
+</html>
