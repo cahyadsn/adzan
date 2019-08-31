@@ -1,0 +1,142 @@
+/*
+BISMILLAAHIRRAHMAANIRRAHIIM - In the Name of Allah, Most Gracious, Most Merciful
+================================================================================
+filename	: change_log.txt
+purpose	: 
+author	: cahya dsn
+================================================================================
+This program is free software; you can redistribute it and/or modify it under the 
+terms of the GNU General Public License as published by the Free Software 
+Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR 
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+copyright (c) 2006-2008 by cahya dsn; cahyadsn@yahoo.com
+================================================================================
+ver 3.0.0
+2008-09-01
+- totally remove registration functionality
+- bug fix for yearly schedule
+- data correction in indonesia.txt file
+- create default page for demo purpose
+
+ver 2.3.5
+2008-01-13
+- update class.html.ajax.php, ajax.php
+- created ajax.fiqh.php
+
+2008-01-11
+- update show_hours(),month_age(),leap(), and date2doy() functions on class.adzan.main.php file.
+
+2008-01-09
+- fixing admin.header.php and admin.footer.php
+
+2008-0104
+- fixing month_age() function on class.adzan.main.php
+
+2007-12-18
+- add admin.header.php and admin.footer.php
+
+2007-12-17
+- add install.header.php and install.footer.php
+- change code for read country data file in index.php at installation folder
+- add code for accordions effect in ajax.js
+
+ver 2.3.4
+2007-06-11
+- add country/city data
+-
+
+2007-05-25
+- add ajax version
+- fixing city selection on class.html.ajax.php
+- fixing change_page() function on ajax.php
+
+ver 2.3.3
+2007-04-30
+- add common.inc.php on installation folder
+- add common.inc.php on administrator folder
+- add algorithm selection on install2.php
+- add fiqh parameters setting on export.php
+- add set_fiqh_parameter_post() function on class.adzan.main.php
+- add unichr() function on class.txt.php
+- add GNU Lesser Public License file (lgpl.html)
+- update generate_data() funtion on class.txt.php
+- fixing city selection on installation (install1.php)
+- fixing path file on export.php
+- update about.php
+- update menu.php
+- update class.city.php
+- update class.fiqh.php
+- update class.layout.php
+
+ver 2.3.2
+- fixing rounding minute display
+
+ver 2.3.1
+2006-05-25
+
+ver 2.3.0 
+2006-04-12
+- add Daylight Saving Time setting on City Management
+- add Daylight Saving Time calculation on adzan class
+
+2006-03-24
+- add tgz compression to export menu
+
+2006-03-23
+- add imsyak time calculation 
+- add option to hide/show imsyak and sunrise time
+- fixing set fiqh parameter routine
+
+2006-03-22
+- add new menu layout and fiqh, drop menu option
+- devide option class to layout and fiqh class
+- add export to txt capabilities
+- fixing login authentification
+
+2006-03-20
+- change "frac" function to "fmod" built-in function
+- make "fmod" function compatible function for PHP ver < 4.2.0
+
+2006-03-17
+- new algorithm selection
+- add input for observe's height parameter
+- fixing registration proccess
+- fixing password user management
+- fixing observe's height correction calculation
+- add redirection/default page to each directoty
+
+ver 2.2.2 2006-03-09
+- add export data capabilities
+- add gzip/zip compression method for export data
+
+ver 2.2.1 2006-03-02
+- new country selection
+- new encrypted registration key
+- new style selection
+- new multilanguage documentation
+- add multilanguage administration module
+- add city searching capability on city administration
+- fixing city selection on options administraion menu
+- fixing on annualy praytime schedule display
+- fixing on city selection (ucfirst -> ucwords)
+- fixing city administration (add data)
+- fixing pre-installation check process
+- fixing installation step 1
+
+ver 2.2.0 2006-02-26
+- new installation wizard
+- new administration module
+- new city management
+- new user management
+- new preference management
+- new registration section
+- new documentation
+- new class programming approached
+
+ver 2.1.2 2006-02-01
+- new sorting city automatically
+- add function get_data_today();

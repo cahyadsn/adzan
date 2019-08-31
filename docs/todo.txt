@@ -1,0 +1,14 @@
+TODO LIST
+program:
+print version
+export to pdf
+export to xls
+theme/style management
+option for method calculation for extreme conditions  
+default fiqh parameter for each countries
+saving data to database (ADODB)
+
+documentation:
+manual guide for user
+manual guide for administrator
+manual guide for developer
