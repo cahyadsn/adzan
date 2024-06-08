@@ -1,4 +1,4 @@
-#Adzan!#
+# Adzan!
 
 
 Adzan! Islamic prayer time schedule system [main apps]
@@ -11,7 +11,7 @@ Adzan! Islamic prayer time schedule system [main apps]
       You should consult a religious advisor for guidance in interpreting the
       results of this program."
 
-##wacana##
+## wacana
 
 Dalam penentuan jadwal salat, data astronomi terpenting adalah posisi matahari 
 dalam koordinat horizon, terutama ketinggian atau jarak zenit. Fenomena yang 
@@ -102,7 +102,7 @@ _Wallahu'alam bish shawab_
                                        *
                                     
 
-##Method List:
+## Method List:
 
         1- Egyptian General Authority of Survey              
         ======================================================
@@ -165,7 +165,7 @@ _Wallahu'alam bish shawab_
         Used in:          Bahrain       Oman                 
                           Qatar         United Arab Emirates 
 
-##Algoritma Perhitungan Matahari Terbit/Terbenam (algo#3)
+## Algoritma Perhitungan Matahari Terbit/Terbenam (algo#3)
 *Sumber*:
 
         Almanac for Computers, 1990
@@ -401,7 +401,7 @@ Contoh kasus (dari buku):
            = 5h 26m
            = 5:26 am EDT
 
-##SHUBUH:
+## SHUBUH:
 Waktu subuh (_fajar shidiq_), zenith matahari berada kurang lebih 108 derajat 
 (_astronomical twilight_), Saaduddin Djambek mengambil pendapat bahwa fajar shidiq 
 bila zenith matahari = 110 derajat, yang juga digunakan oleh Badan Hisab dan 
@@ -419,7 +419,7 @@ untuk perhitungan waktu shubuh gunakan rumus:
              t = N + ((5 - lngHour) / 24)
     dengan perkiraan waktu shubuh pukul 5
     
-##DHUHUR:
+## DHUHUR:
 Waktu dzhuhur adalah sejak matahari meninggalkan meridian, biasanya diambil 
 sekitar 2 menit setelah tengah hari. Untuk keperluan praktis, waktu tengah 
 hari cukup diambil waktu tengah antara matahari terbit dan terbenam.
@@ -439,7 +439,7 @@ untuk perhitungan waktu dhuhur gunakan rumus :
       untuk melaksanakan shalat, jadi perlu penambahan 2-5 menit dari hasil 
       perhitungan.
     
-##ASHAR :
+## ASHAR :
 
 Badan Hisab dan Rukyat Departemen Agama RI menggunakan rumusan: 
 
@@ -471,7 +471,7 @@ untuk perhitungan waktu ashar gunakan rumus:
      - zenith matahari yang digunakan pada rumus (16) adalah nilai za pada 
        perhitungan (14c)  
 
-##MAGHRIB:
+## MAGHRIB:
 Waktu maghrib berarti saat terbenamnya matahari. Matahari terbit atau 
 berbenam didefinisikan secara astronomi bila jarak zenith z = 90 derajat 50 menit 
 (90,83333333333.. derajat) (_the Astronomical almanac_) atau z = 91 derajat bila 
@@ -487,7 +487,7 @@ untuk perhitungan waktu maghrib gunakan rumus:
     (21)
 
 
-##ISYA:
+## ISYA:
 
 Waktu isya ditandai dengan mulai memudarnya cahaya merah di ufuk barat, yaitu 
 tanda masuknya gelap malam (Al-Quran S. 17:78). Dalam astronomi itu dikenal 
@@ -509,14 +509,14 @@ untuk perhitungan waktu isya gunakan rumus:
 ##Keterangan :
       perhitungan geometri (sin,cos,tan, dll) menggunakan sudut dalam derajat
 
-##Perhatian:
+## Disclaimer:
 >
 "Hasil perhitungan ini semata-mata berdasarkan disiplin ilmu astronomi yang  
 penulis ambil dari beberapa literatur! Oleh karena itu kami tidak mengklaim 
 hasil ini yang paling benar."
 
 
-##References
+## References
 
 * " ***Astronomy on the Personal Computer*** " by Oliver Montenbruck and Thomas Pfleger. 
    Springer Verlag 1994. ISBN 3-540-57700-9.
